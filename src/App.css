@@ -1,0 +1,46 @@
+.landing {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 20px;
+}
+
+.landing-card {
+  text-align: center;
+  max-width: 420px;
+}
+
+.landing-icon {
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.landing-card h1 {
+  font-size: 32px;
+  margin: 0 0 8px;
+}
+
+.landing-tagline {
+  color: var(--text);
+  margin: 4px 0 28px;
+  font-size: 16px;
+}
+
+.landing-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  color: var(--accent);
+  font-size: 16px;
+  text-decoration: none;
+  transition: box-shadow 0.2s;
+}
+
+.landing-cta:hover {
+  box-shadow: var(--shadow);
+}
